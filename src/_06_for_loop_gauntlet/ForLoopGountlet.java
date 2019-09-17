@@ -27,18 +27,27 @@ for (int i = 0; i <99; i++) {
 }
 for (int i = 1; i < 500; i++) {
 	if (i%2==0) {
-		JOptionPane.showMessageDialog(null, "Even number");
-		
-			JOptionPane.showMessageDialog(null, "Number is odd");
+	System.out.print(i);	
+	//JOptionPane.showMessageDialog(null, "Even number");
+		System.out.println("		Even Number");
+			
 		}
-	if (condition) {
-		
-	}
-	System.out.println(i);
+	if (i%2==1) {
+		//JOptionPane.showMessageDialog(null, "Number is odd");
+	
+	System.out.print(i);
+
+	System.out.println("		odd number");
 }
 
 
+}
 
+
+for (int i = 1; i < 14; i++) {
+	System.out.println( "In   " +(2006+i)+"  my age was  "+i);
+	
+}
 
 
 
